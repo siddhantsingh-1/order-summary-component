@@ -85,7 +85,7 @@ main {
 	border-radius: 10px;
 }
 
-.plan-container h4 {
+.plan-container h2 {
 	font-size: 0.9rem;
 }
 
@@ -95,7 +95,7 @@ main {
 }
 
 .plan-container p,
-.plan-container h4 {
+.plan-container h2 {
 	margin-left: -2rem;
 }
 
@@ -176,7 +176,7 @@ button:hover {
 	}
 
 	.plan-container p,
-	.plan-container h4 {
+	.plan-container h2 {
 		margin-left: -5rem;
 	}
 
