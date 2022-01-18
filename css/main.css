@@ -13,10 +13,15 @@
     margin: 0;
     padding: 0;
     font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
 }
 
 body {
     background-color: var(--pale-blue);
+}
+
+p {
+    color: var(--desaturated-blue);
 }
 
 main {
@@ -27,12 +32,17 @@ main {
     background-size: cover; */
 }
 
+/* Card Styles */
+
 .card {
     width: 329.25px;
-    margin: 50px auto;
+    margin: 100px auto;
     border-radius: 20px;
     background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+/* Header Styles */
 
 .card header {
     width: 100%;
@@ -40,8 +50,82 @@ main {
 
 .card header img {
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 20px 20px 0 0;
 }
+
+/* Card content styles */
+
+.card__content {
+    text-align: center;
+}
+
+.content__heading {
+    color: var(--dark-blue);
+    font-size: 1.3rem;
+    margin-top: 1.3rem;
+}
+
+.content__para {
+    width: 80%;
+    margin: 1rem auto;
+    font-size: 0.95rem;
+    line-height: 1.7rem;
+}
+
+/* Plan container section */
+
+.plan-container {
+    width:87%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: var(--very-pale-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.plan-container h4{
+    font-size: 0.9rem;
+}
+
+.plan-container p {
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+.plan-container p,
+.plan-container h4 {
+    margin-left: -2rem;
+}
+
+.plan-container a {
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+/* Button Section */
+
+button {
+    width: 87%;
+    margin: 1.5rem;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--bright-blue);
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Cancel */
+
+.cancel {
+    text-align: center;
+    color: var(--desaturated-blue);
+    font-size: 0.9rem;
+    padding-bottom: 2rem;
+}
+
 
 
 
