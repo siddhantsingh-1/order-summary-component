@@ -155,6 +155,13 @@ button:hover {
 /* Responsive Styles */
 
 @media only screen and (min-width: 1000px) {
+	body {
+		background: url(../images/pattern-background-desktop.svg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-color: var(--very-pale-blue);
+	}
+
 	.card {
 		width: 450px;
 		margin: 100px auto;
