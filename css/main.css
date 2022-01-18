@@ -102,6 +102,13 @@ main {
 .plan-container a {
 	font-size: 0.85rem;
 	font-weight: bold;
+	transition: all 0.3s ease-in-out;
+}
+
+.plan-container a:hover {
+	text-decoration: none;
+	color: hsl(245, 75%, 70%);
+	transition: all 0.3s ease-in-out;
 }
 
 /* Button Section */
@@ -115,6 +122,15 @@ button {
 	background-color: var(--bright-blue);
 	color: #fff;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: hsl(245, 75%, 70%);
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2),
+		0 15px 100px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
 }
 
 /* Cancel */
@@ -124,6 +140,16 @@ button {
 	color: var(--desaturated-blue);
 	font-size: 0.9rem;
 	padding-bottom: 2rem;
+}
+
+.cancel span {
+	transition: all 0.3s ease-in-out;
+}
+
+.cancel span:hover {
+	color: hsl(224, 23%, 25%);
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
 }
 
 /* Responsive Styles */
@@ -144,22 +170,22 @@ button {
 	}
 
 	.plan-container {
-        margin-top: 1.5rem;
-        width: 75%;
-        padding: 1.3rem;
+		margin-top: 1.5rem;
+		width: 75%;
+		padding: 1.3rem;
 	}
 
-    .plan-container p,
-    .plan-container h4{
-        margin-left: -5rem;
-    }
+	.plan-container p,
+	.plan-container h4 {
+		margin-left: -5rem;
+	}
 
-    button {
-        margin-top: 2.4rem;
-        margin-bottom: 2rem;
-    }
+	button {
+		margin-top: 2.4rem;
+		margin-bottom: 2rem;
+	}
 
-    .cancel {
-        padding-bottom: 3rem;
-    }
+	.cancel {
+		padding-bottom: 3rem;
+	}
 }
